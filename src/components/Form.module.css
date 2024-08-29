@@ -1,0 +1,106 @@
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+
+.popscreen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 101;
+    width: 500px;
+}
+
+
+.popscreen h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.groupname {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.groupname label {
+    flex-shrink: 0;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.groupname input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+.colorcontainer {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.colorcontainer label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.colorcontainer button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s;
+}
+
+
+
+
+.clrbtn{
+    width: 30%;
+    padding: 10px;
+    background-color: #0026e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+    
+}
+
+.popscreen button[type="button"]:hover {
+    background-color: #001bb8;
+}

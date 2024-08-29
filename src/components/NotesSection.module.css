@@ -1,0 +1,87 @@
+.rightscreen {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #F7ECDC;
+    overflow-y: hidden;
+  }
+  
+  .header {
+    background-color: #001F8B;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .groupIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  .groupName {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .notesArea {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .noteCard {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .noteText {
+    margin-bottom: 10px;
+  }
+  
+  .noteTimestamp {
+    font-size: 0.8rem;
+    color: #6B6B6B;
+    text-align: right;
+  }
+  
+  .inputArea {
+    background-color: #001F8B;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .inputArea textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1rem;
+  }
+
+ .inputArea textarea+div{
+position: absolute;
+right: 2rem;
+bottom: 1.35rem;
+ }
+
+ .hidden{
+    display: none;
+ }
+  
+  .textarea::placeholder {
+    color: #9A9A9A;
+  }
+ 
